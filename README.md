@@ -14,8 +14,12 @@ With this complete dataset, we can push the data points to a Weaviate collection
 Next, we simply query the database for job postings related to machine learning using semantic searching. We now have access to any job postings related to ML, or any other field we wish to query.
 
 As a proof of concept, here are some graphs created using the data from the queried job postings:
+
 ![views_applies](https://github.com/WillPugs/weaviate-application/assets/70442267/47e3302d-a231-48a3-8b43-1eafb0d246a7)
-![salary_bar_plot](https://github.com/WillPugs/weaviate-application/assets/70442267/73288d28-7de8-4c02-9f09-cf22f4304c44)
-![salary_histogram](https://github.com/WillPugs/weaviate-application/assets/70442267/3c5313af-bdba-4e0a-b609-94b85db83297)
+
+![salary_bar_plot](https://github.com/WillPugs/weaviate-application/assets/70442267/2278ba71-32ae-4670-847d-e899d0903c0e)
+
+![salary_histogram](https://github.com/WillPugs/weaviate-application/assets/70442267/9c462084-d357-4082-8d91-9f1a970c3ef8)
+
 
 Requires the postings.csv file from Kaggle to be in the directory as well as a secrets.txt file containing API keys and database URLs.
